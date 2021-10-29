@@ -2,6 +2,7 @@
 
 small helper for m66 r2:
 
+depend on https://github.com/AlirezaP/AP.NanoFramework.Serial/blob/main/README.md
 '
 
            // COM2 in ESP32-WROVER-KIT mapped to free GPIO pins
