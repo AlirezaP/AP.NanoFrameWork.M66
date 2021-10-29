@@ -3,10 +3,11 @@
 small helper for m66 r2:
 
 '
-            // COM2 in ESP32-WROVER-KIT mapped to free GPIO pins
-            // mind to NOT USE pins shared with other devices, like serial flash and PSRAM
-            // also it's MANDATORY to set pin function to the appropriate COM before instantiating it
-            // set GPIO functions for COM2 (this is UART1 on ESP32)
+
+           // COM2 in ESP32-WROVER-KIT mapped to free GPIO pins
+           // mind to NOT USE pins shared with other devices, like serial flash and PSRAM
+           // also it's MANDATORY to set pin function to the appropriate COM before instantiating it
+           // set GPIO functions for COM2 (this is UART1 on ESP32)
 
             Configuration.SetPinFunction(17, DeviceFunction.COM2_TX);
             Configuration.SetPinFunction(16, DeviceFunction.COM2_RX);
